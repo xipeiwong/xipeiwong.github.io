@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>main gallery</title>
+  <style>    
+    body{
+      font-family: verdana, sans-serif;
+    }
+    #hero{
+      background: linear-gradient(rgb(135,221,255), white);
+      color: white;
+    }
+    ul{
+      list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    li{
+      float: left;
+    }
+   li a{
+      display:block;
+      color:whitesmoke;
+      text-align:center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight:100;
+       -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+    }
+    li a:hover:not(.active){
+     color:#ff9626;
+     background-color: #333;
+    }
+    .active{
+     color:#ff9626;
+    }
+  </style>
+</head>
+<body>
+   <div id="site-header">
+     <nav>
+       <ul>
+     <li><h1>
+       <a href="index.html">XIPEI WONG</a>
+       </h1></li>
+       <li style="float:right"><h2>
+         <a class="active" href="maingallery.html">Main Gallery</a></li><h2>
+     </ul>
+   </nav>
+   </div>
+</body>
+</html>
